@@ -1,3 +1,3 @@
 package 'httpd' do
-action :start
+action :restart
 end
