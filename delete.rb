@@ -1,5 +1,5 @@
-service 'vsftpd' do
+package 'vsftpd' do
 
-action :restart
+action :install
 
 end
