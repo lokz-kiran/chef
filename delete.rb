@@ -1,5 +1,5 @@
-file 'lokz-kiran.txt' do
+package 'vsftpd' do
 
-action :delete
+action :install
 
 end
