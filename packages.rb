@@ -6,7 +6,7 @@ end
 
 service 'httpd' do
 
-action :restart
+action :upgrade
 
 end
 
@@ -24,6 +24,6 @@ end
 
 package 'vsftpd' do
 
-action :restart
+action :upgrade
 
 end
